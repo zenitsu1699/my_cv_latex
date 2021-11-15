@@ -1,0 +1,146 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=green,
+    urlcolor=red
+}
+
+\ifxetexorluatex
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{636b6f}
+\definecolor{BlueSky}{HTML}{141C68}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{tagline}{VividPurple}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Gérard TOUDOGUIN}
+\tagline{ *+/ Student /-* }
+\personalinfo{%
+  \email{tmg1239univers@gmail.com}
+  \location{Akpokpota, Avotrou/Cotonou, BJ}\\
+  \email{gerard.toudogin@epitech.eu}
+  \linkedin{mawulé-toudoguin-54a0831a3/}
+}
+
+\makecvheader
+
+\columnratio{0.5}
+
+\begin{paracol}{2}
+
+\cvsection{Carrer summary}
+\begin{quote}
+Currently, I'm student in second year at Epitech Cotonou in order to increase my knowledge in programming. I'm going to get the skills in IT developper specially in web and app. With Epitech's Pedegogy, I learnt how to work with a team and how to be autonomous. I love the challenge and difficulty, in order to apply my skills and learn the news  things. For now , I'm learning laravel framework and php.
+\end{quote}
+
+\cvsection{Education}
+
+\cvevent{European Institute of Information Technology (EPITECH)}{Bachelor of Science (Bsc)}{September 2019 - Date}{Sèmè One, Cotonou, Benin}
+\begin{itemize}
+\item Agile methodology
+\item Long-term expertise
+\item Learning by Doing
+\item Individual and group projects to be carried out (Unix system programming, Scientific programming, Graphic programming, Web programming)
+\item Innovation HUB weeks (Take a theme and develop solutions related to it)
+\item Professional skills (how to present and sell a solution)
+\item Develop your English language skills
+\end{itemize}
+
+\cvsection{Experience}
+
+\cvevent{EPITECH \& Project Week}{Internship: Design of educational game }{Jan 2021 - Date}{Sèmè City, Cotonou, Benin}
+\begin{itemize}
+\item Know the dangers of cybercrime
+\item Know the realities of young people
+\item Find innovative solutions to develop
+\item Think about the fun aspect of the game
+\end{itemize}
+
+\divider
+
+\cvevent{EPITECH \& Carrer Center}{Intership: Make a website for the carrer center }{June 2020 - July 2020}{Epitech' Office, Benin}
+\begin{itemize}
+\item Set up the student-business interaction of the site
+\item Use of the angular framework
+\end{itemize}
+
+\switchcolumn
+
+\cvevent{PULSE \& Enabel}{Intership: Develop specifications for Enabel Group projects in partnership with the Ministry of Health }{Aug 2021 - Sep 2021}{Epitech' Office, Benin}
+\begin{itemize}
+\item Make the graphic charter
+\item Improve the user experience
+\item Make a feasibility study
+\end{itemize}
+
+
+\cvsection{Technical skills}
+
+\cvskill{C / C++}{4}
+\divider
+\cvskill{HTML / CSS}{3}
+\divider
+\cvskill{Laravel}{3}
+\divider
+\cvskill{Python}{3}
+\divider
+\cvskill{PHP}{3}
+\divider
+\cvskill{Bulma}{3}
+\divider
+\cvskill{Bootstrap}{2}
+\divider
+\cvskill{Animejs}{1}
+\divider
+\cvskill{Angular}{2}
+\divider
+\cvskill{\LaTeX}{3}
+
+\cvsection{Soft skills}
+
+\cvtag{Sociable}
+\cvtag{Self-training \& Autonomy}\\
+\cvtag{Team Work}
+\cvtag{Adaptability}
+\cvtag{Hard-working}
+\cvtag{Curious}
+
+\cvsection{Personal Interest}
+
+\cvtag{Gaming}
+\cvtag{Anime}
+\cvtag{Movies}\\
+\cvtag{Reading}
+\cvtag{Writing}
+\cvtag{Sleeping}
+
+\cvsection{Referees}
+
+\cvref{Johanne BRUFFAERTS}{johanne.bruffaerts@epitech.eu}{Head of Business Development @ EPITECH Benin}{Cotonou, Benin}
+
+\end{paracol}
+
+\end{document}
