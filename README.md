@@ -1,2 +1,2 @@
 # my_cv_latex
-Faire son CV en codant
+Faire son CV en codant. Pour tous les codeurs qui ont la flemme de se mettre à faire un CV avec les outils usuels...
