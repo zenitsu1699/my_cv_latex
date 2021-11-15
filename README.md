@@ -1,5 +1,3 @@
-# my_cv_latex
-
 # CURRICULUM VITAE
 
 ## DESCRIPTION
